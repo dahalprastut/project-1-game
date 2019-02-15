@@ -1,0 +1,75 @@
+/* game start here----------------------- */
+
+main{
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+div{
+    font-size: 20px;
+}
+
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.current-value-outer{
+    color: darkgreen;
+    font-weight: 600;
+}
+
+
+.players{
+    margin-top: 80px;
+    
+    
+}
+
+.player1{
+    float: left;
+    width: 50%;
+    border-right: 2px solid #ccc;
+
+}
+
+.player2{
+    float:right;
+    width: 49.88%;
+}
+
+.active{
+    background: #eee;
+    
+}
+
+h1{
+    font-size: 30px;
+    color: red;
+}
+
+
+.for-dice{
+
+    margin-top: 80px;
+}
+
+button{
+    float: left;
+    height: 40px;
+    width: 32%;
+    
+
+}
+
+button:hover{
+    background:#ccc;
+}
+
+.dice-value{
+    float:left;
+    margin:0 20px;
+    width: 27%;
+}
